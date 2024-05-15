@@ -1,0 +1,29 @@
+.app {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+figure {
+  margin-bottom: 10%;
+}
+
+figcaption {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: x-large;
+  text-align: center;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
